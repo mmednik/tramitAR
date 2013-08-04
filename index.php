@@ -16,7 +16,7 @@
   </head>
 <?php include('lib/class.MySQL.php'); ?>
 <?php 
-  $oMySQL = new MySQL('tramites','root','mysql');
+  $oMySQL = new MySQL('tramites','***','***');
 ?>
   <body>
     <div id="wrap">
