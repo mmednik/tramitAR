@@ -1,6 +1,6 @@
 <?php 
 	include('lib/class.MySQL.php');
-	$oMySQL = new MySQL('tramites','root','mysql');
+	$oMySQL = new MySQL('tramites','***','***');
 	$modalTramite = $oMySQL->ExecuteSQL('SELECT * FROM tramites WHERE idtramites=' . $_POST['id']);
 	$tituloTags = $oMySQL->ExecuteSQL('SELECT DISTINCT label FROM tags WHERE idtramites=' . $_POST['id']); 
     
